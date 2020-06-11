@@ -33,7 +33,12 @@ text = re.sub("^\d+\s|\s\d+\s|\s\d+$", " ", text)
 
 #print(len(text))
 
-###
+  ### remove duplicate spaces
+text = " ".join(text.split())
+print(len(text))
+
+#######################################################################################
+ 
   ### save output as text file, be sure encode as utf-8
 ### 
 textfile = open('react-native.txt', 'w', encoding='utf-8')
