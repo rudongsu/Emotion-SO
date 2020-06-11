@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import lxml
 import pandas as pd
-
+import re
 df = pd.read_csv('react-native.csv')
 
 print(df.head())
@@ -27,6 +27,9 @@ for tag in soup.find_all(['code', 'a', 'pre']):
   ### remove common English stop words and non-alphanumeric characters
 ### 
 text = soup.get_text(strip=True).replace("."," ").replace(","," ").replace("is "," ").replace("a "," ").replace("the "," ")
+
+  ### remove digits
+text = re.sub("^\d+\s|\s\d+\s|\s\d+$", " ", text)
 
 #print(len(text))
 
