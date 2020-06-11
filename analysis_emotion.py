@@ -32,9 +32,9 @@ natural_language_understanding.set_service_url('url')
 response = natural_language_understanding.analyze(
     text= plaintext,
     features=Features(
-        entities=EntitiesOptions(emotion=True, sentiment=True, limit=2),
-        keywords=KeywordsOptions(emotion=True, sentiment=True,
-                                 limit=2)),
+        emotion=EmotionOptions(document=True),
+        sentiment=SentimentOptions(document=True)
+        ),
         language='en'
         ).get_result()
         
