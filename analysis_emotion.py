@@ -31,7 +31,7 @@ natural_language_understanding.set_service_url('url')
 
 response = natural_language_understanding.analyze(
 #    text= plaintext,
-    html = 'Flutter.html',
+    html = '', # has to be raw html 
     features=Features(
         emotion=EmotionOptions(document=True),
         sentiment=SentimentOptions(document=True)
