@@ -6,17 +6,17 @@ from ibm_watson.natural_language_understanding_v1 import Features, EmotionOption
 ##
  ### open pre-processed plain text
  
-files = []
-for word in open('test.txt', encoding='utf-8'):
-    files.append(word.rstrip('\n'))
+#files = []
+#for word in open('test.txt', encoding='utf-8'):
+#    files.append(word.rstrip('\n'))
 
-plaintext = " ".join(
-  [str(item) 
-    for var in files 
-             for item in var])
+#plaintext = " ".join(
+#  [str(item) 
+#    for var in files 
+#             for item in var])
 
-print('file loading done')
-print(len(plaintext))
+#print('file loading done')
+#print(len(plaintext))
 
 ##
  ### firing IBM natural language understanding cloud service 
@@ -30,7 +30,8 @@ natural_language_understanding = NaturalLanguageUnderstandingV1(
 natural_language_understanding.set_service_url('url')
 
 response = natural_language_understanding.analyze(
-    text= plaintext,
+#    text= plaintext,
+    html = 'Flutter.html',
     features=Features(
         emotion=EmotionOptions(document=True),
         sentiment=SentimentOptions(document=True)
