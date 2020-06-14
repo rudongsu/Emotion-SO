@@ -1,0 +1,121 @@
+{
+  "usage": {
+    "text_units": 5,
+    "text_characters": 47495,
+    "features": 2
+  },
+  "sentiment": {
+    "document": {
+      "score": -0.523996,
+      "label": "negative"
+    }
+  },
+  "language": "en",
+  "emotion": {
+    "document": {
+      "emotion": {
+        "sadness": 0.592377,
+        "joy": 0.060087,
+        "fear": 0.068811,
+        "disgust": 0.021367,
+        "anger": 0.097065
+      }
+    }
+  }
+}{
+  "usage": {
+    "text_units": 5,
+    "text_characters": 49835,
+    "features": 2
+  },
+  "sentiment": {
+    "document": {
+      "score": -0.57507,
+      "label": "negative"
+    }
+  },
+  "language": "en",
+  "emotion": {
+    "document": {
+      "emotion": {
+        "sadness": 0.562608,
+        "joy": 0.044842,
+        "fear": 0.054374,
+        "disgust": 0.01829,
+        "anger": 0.055622
+      }
+    }
+  }
+}{
+  "usage": {
+    "text_units": 5,
+    "text_characters": 44394,
+    "features": 2
+  },
+  "sentiment": {
+    "document": {
+      "score": -0.563916,
+      "label": "negative"
+    }
+  },
+  "language": "en",
+  "emotion": {
+    "document": {
+      "emotion": {
+        "sadness": 0.561304,
+        "joy": 0.08003,
+        "fear": 0.065328,
+        "disgust": 0.021288,
+        "anger": 0.099134
+      }
+    }
+  }
+}{
+  "usage": {
+    "text_units": 5,
+    "text_characters": 45509,
+    "features": 2
+  },
+  "sentiment": {
+    "document": {
+      "score": -0.509107,
+      "label": "negative"
+    }
+  },
+  "language": "en",
+  "emotion": {
+    "document": {
+      "emotion": {
+        "sadness": 0.634587,
+        "joy": 0.033967,
+        "fear": 0.060481,
+        "disgust": 0.019577,
+        "anger": 0.125821
+      }
+    }
+  }
+}{
+  "usage": {
+    "text_units": 5,
+    "text_characters": 47864,
+    "features": 2
+  },
+  "sentiment": {
+    "document": {
+      "score": -0.599386,
+      "label": "negative"
+    }
+  },
+  "language": "en",
+  "emotion": {
+    "document": {
+      "emotion": {
+        "sadness": 0.585534,
+        "joy": 0.060003,
+        "fear": 0.066638,
+        "disgust": 0.024268,
+        "anger": 0.098991
+      }
+    }
+  }
+}
