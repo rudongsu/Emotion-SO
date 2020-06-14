@@ -18,7 +18,7 @@ This is the source code repo for my personal research on leveraging [IBM Watson 
 ## Just wanna see the results? ##
 
 - download 'flutter full.csv' from https://drive.google.com/drive/folders/1Mc1vDUfF4UVdqSFLjfI8oynRg60aAzGH?usp=sharing
-- run sendRandomPosts.py on 'flutter.csv', remember to change file path and replace the api and url with your own [credential](https://cloud.ibm.com/docs/cloud-object-storage/iam?topic=cloud-object-storage-service-credentials)
+- run sendRandomPosts.py on 'flutter full.csv', remember to change file path and replace the api and url with your own [credential](https://cloud.ibm.com/docs/cloud-object-storage/iam?topic=cloud-object-storage-service-credentials)
 - check the printed results on the screen, you should get something like this one [sample results](https://github.com/rudongsu/Emotion-SO/blob/master/sample%20results/sample%20analysis%20result.txt)
 
 ## Built With
