@@ -30,14 +30,17 @@ This is the source code repo for my personal research on leveraging [IBM Watson 
 
  **Rudong SU** : *rudongsu@gmail.com*
 
-## Acknowledgments
-
-* the project is taken as the main assignment in Research Methods in Software Engineering & Computer Science course during my Master of Software Engineering program at University of Adelaide.
-* Refer this paper to learn more about cross-platform mobile app development tools:
+## Useful Resources
+* Refer to this paper to learn more about cross-platform mobile app development tools:
 ``` 
 Shah, Kewal & Sinha, Harsh & Mishra, Payal. (2019). Analysis of Cross-Platform Mobile App Development Tools. 1-7. 10.1109/I2CT45611.2019.9033872. 
 ```
-* Refer this paper to learn more about IBM Watson's Deep Learning Semantic Approach:
+* learn more about IBM Watson's Deep Learning Semantic Approach:
 ``` 
 Biondi, Giulio & Franzoni, Valentina & Poggioni, Valentina. (2017). A Deep Learning Semantic Approach to Emotion Recognition Using the IBM Watson Bluemix Alchemy Language. 718-729. 10.1007/978-3-319-62398-6_51. 
 ```
+
+## Acknowledgments
+
+the project is taken as the main assignment in Research Methods in Software Engineering & Computer Science course during my Master of Software Engineering program at University of Adelaide.
+
