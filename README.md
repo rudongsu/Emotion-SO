@@ -1,6 +1,6 @@
 # Emotion-SO
 
-This is the source code repo for my personal research on leveraging [IBM Watson Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) (NLU) for analysing developer's emotion of question posts in Stack Overflow targeting state-of-the-art cross-platform mobile development technologies: Flutter, React-native, angularjs, Cordova, Xamarin, ionic-framework and vue.js.  (Ideally, you can use the code to exploring any technical topic in Stack Overflow)
+This is the source code repo for my personal research on leveraging [IBM Watson Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) (NLU) for analysing developer's emotion of question posts in Stack Overflow targeting the-state-of-art cross-platform mobile development technologies: Flutter, React-native, angularjs, Cordova, Xamarin, ionic-framework and vue.js.  (Ideally, you can use the code to exploring any technical topic in Stack Overflow)
 
 ## Prerequisites
 
@@ -31,14 +31,15 @@ This is the source code repo for my personal research on leveraging [IBM Watson 
  **Rudong SU** : *rudongsu@gmail.com*
 
 ## Useful Resources
-* Refer to this paper to learn more about cross-platform mobile app development tools:
-``` 
-Shah, Kewal & Sinha, Harsh & Mishra, Payal. (2019). Analysis of Cross-Platform Mobile App Development Tools. 1-7. 10.1109/I2CT45611.2019.9033872. 
-```
+* Refer to following papers to learn more about cross-platform mobile app development tools:
+
+[Taxonomy of Cross-Platform Mobile Applications Development Approaches](https://www.sciencedirect.com/science/article/pii/S2090447915001276)
+
+[Analysis of Cross-Platform Mobile App Development Tools](https://ieeexplore.ieee.org/abstract/document/9033872)
+
 * learn more about IBM Watson's Deep Learning Semantic Approach:
-``` 
-Biondi, Giulio & Franzoni, Valentina & Poggioni, Valentina. (2017). A Deep Learning Semantic Approach to Emotion Recognition Using the IBM Watson Bluemix Alchemy Language. 718-729. 10.1007/978-3-319-62398-6_51. 
-```
+
+[A Deep Learning Semantic Approach to Emotion Recognition Using the IBM Watson Bluemix Alchemy Language](https://www.researchgate.net/publication/318397682_A_Deep_Learning_Semantic_Approach_to_Emotion_Recognition_Using_the_IBM_Watson_Bluemix_Alchemy_Language)
 
 ## Acknowledgments
 
